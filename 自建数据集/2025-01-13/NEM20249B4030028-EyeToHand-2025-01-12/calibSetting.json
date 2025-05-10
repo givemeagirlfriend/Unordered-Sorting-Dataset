@@ -1,0 +1,123 @@
+{
+    "calib_board": {
+        "board_name": "BDB-6",
+        "circle_detect_param": {
+            "blobParams": {
+                "blobColor": 255,
+                "maxArea": 10000,
+                "maxThreshold": 80,
+                "minArea": 1000,
+                "minBlobDist": 50,
+                "minThreshold": 0
+            },
+            "gridParams": {
+                "allowMissingPoints": false,
+                "maxPtsLocTolerate": 25,
+                "minValidPtsInLine": 1,
+                "minValidPtsProp": 0.5
+            }
+        },
+        "patternSize": [
+            4,
+            5
+        ],
+        "pointsSpace": 0.035
+    },
+    "calib_method": "Manual",
+    "calib_type": "EyeToHand",
+    "cameras": {
+        "NEM20249B4030028": {
+            "camera_property": {
+                "cameraId": "NEM20249B4030028",
+                "cameraModel": "Mech-Eye PRO M",
+                "cameraParameterGroupName": "NEM20249B4030028-EyeToHand-2025-01-12",
+                "configGroup": "calib",
+                "imgType2d": 0,
+                "ip": "192.168.1.100",
+                "needRectify": false,
+                "reconnectTimes": 3,
+                "rectifyToDepthMap": true,
+                "timeout": 20,
+                "virtualMode": false
+            },
+            "camera_type": "MechEye"
+        }
+    },
+    "euler_type": "XYZ_STATIC",
+    "fixed_board_pose": [
+        0.02083989653978658,
+        -0.1931349239943598,
+        0.002348613478836692,
+        0.013182538066219713,
+        0.9271746191722574,
+        0.3743650235978109,
+        0.004927003097511764
+    ],
+    "is_keep_offset": true,
+    "is_saving_image": true,
+    "main_camera_id": "NEM20249B4030028",
+    "modify_time": "2025-01-12T10:29:04",
+    "move_params": {
+        "is_base_coord": false,
+        "move_parameters": {
+        },
+        "robot_name": "AUBO_I10"
+    },
+    "robot": {
+        "is_moveL": false,
+        "robot_name": "AUBO_I10",
+        "speed_ratio": 0.2,
+        "wait_time": 2
+    },
+    "robotRotationUnconstrained": true,
+    "tcp_touch_data": {
+        "capture_pose": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "pts_in_cam": [
+        ],
+        "tcp": [
+            0,
+            0,
+            0
+        ],
+        "tcp_poses": [
+        ],
+        "tri_poses": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        ]
+    },
+    "useTcpTouch": false
+}
